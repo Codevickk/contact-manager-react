@@ -1,0 +1,10 @@
+.header-container {
+    padding: 20px 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.header-text {
+    font-size: 28px;
+    color: #54d192;
+}

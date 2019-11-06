@@ -1,0 +1,22 @@
+.auth-header {
+  margin-bottom: 20px;
+}
+
+.auth-form button[disabled] {
+  background: #54d192 !important;
+}
+
+.auth-form button:hover {
+  background: gray;
+}
+
+.auth-info {
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+@media only screen and (min-width: 500px) {
+  .auth-container {
+    width: 420px;
+  }
+}

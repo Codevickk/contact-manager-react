@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:100,200,300,400,500,600");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: #54d192;
+  transition: .3s all;
+}
+
+a:hover {
+  color: gray;
+}
+
+.main-container {
+  min-height: 100vh;
+  background: #fcfcfc;
+  display: flex;
+  align-items: center;
+  font-family: "Nunito", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px 0px;
+}
+
+.sub-container {
+  display: block;
+  margin: 0 auto;
+}
+
+.content-container {
+  background: white;
+  padding: 30px 20px;
+  border-radius: 5px;
+}
+
+.heading {
+  font-size: 27px;
+  text-align: center;
+}
+
+.submit-btn {
+  background: #54d192;
+  color: white;
+  border: none;
+  transition: .3s all;
+  cursor: pointer;
+}
